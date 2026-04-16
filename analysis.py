@@ -2289,14 +2289,13 @@ if __name__ == "__main__":
             f"in days: {total_duration/86400:.2f}, "
             f"in weeks: {total_duration/604800:.2f}, "
             f"in months: {total_duration/2629800:.2f}, "   # average month (30.44 days)
-            f"in years: {total_duration/31557600:.2f} "    # average year (365.25 days)
-            f"before filtering."
+            f"in years: {total_duration/31557600:.2f}."    # average year (365.25 days)
         )
-        logger.info("Total number of videos before filtering: {}.",
+        logger.info("Total number of videos: {}.",
                     dataset_stats.calculate_total_videos(df_mapping))
 
         country, number, _ = metrics_cache.get_unique_values(df_mapping, "iso3")
-        logger.info(f"Total number of countries and territories before filtering: {number}.")
+        logger.info(f"Total number of countries and territories: {number}.")
 
         locality_state_iso3, number, dup_report = metrics_cache.get_unique_values(
             df_mapping,
