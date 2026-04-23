@@ -70,8 +70,8 @@ uv --version
 
 **Step 4:** Clone the repository:
 ```command line
-git clone https://github.com/Shaadalam9/pedestrians-in-youtube.git
-cd pedestrians-in-youtube
+git clone https://github.com/crowd-dataset/crowd.git
+cd crowd
 ```
 
 **Step 5:** Ensure correct Python version. If you don’t already have Python 3.10.18 installed, let `uv` fetch it:
@@ -210,31 +210,31 @@ Video: [https://www.youtube.com/watch?v=rdx7UFXYSz0](https://www.youtube.com/wat
 
 ## Description and analysis of dataset
 ### Description of dataset
-[![Locations of cities with footage in dataset](figures/mapbox_map_all.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/mapbox_map_all.html)
+[![Locations of cities with footage in dataset](figures/mapbox_map_all.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all.html)
 Locations of cities with footage in dataset. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Locations of cities with footage in dataset with density overlay of population](figures/mapbox_map_all_pop.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/mapbox_map_all_pop.html)
+[![Locations of cities with footage in dataset with density overlay of population](figures/mapbox_map_all_pop.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all_pop.html)
 Locations of cities with footage in dataset with a density overlay of population. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Locations of cities with footage in dataset with density overlay of the number of videos in the dataset](figures/mapbox_map_all_videos.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/mapbox_map_all_videos.html)
+[![Locations of cities with footage in dataset with density overlay of the number of videos in the dataset](figures/mapbox_map_all_videos.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all_videos.html)
 Locations of cities with footage in dataset with a density overlay of the number of videos in the dataset. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Locations of cities with footage in dataset with density overlay of the total number of seconds of footage in the dataset](figures/mapbox_map_all_time.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/mapbox_map_all_time.html)
+[![Locations of cities with footage in dataset with density overlay of the total number of seconds of footage in the dataset](figures/mapbox_map_all_time.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all_time.html)
 Locations of cities with footage in dataset with a density overlay of the total number of seconds of footage in the dataset. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Number of videos over the total number of seconds of footage in the dataset on the city level](figures/scatter_all_total_time-video_count.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/scatter_all_total_time-video_count.html)
+[![Number of videos over the total number of seconds of footage in the dataset on the city level](figures/scatter_all_total_time-video_count.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/scatter_all_total_time-video_count.html)
 Total time of footage over the number of videos in the dataset on the city level. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Number of videos over the total number of seconds of footage in the dataset on the country level](figures/scatter_all_country_total_time-video_count.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/scatter_all_country_total_time-video_count.html)
+[![Number of videos over the total number of seconds of footage in the dataset on the country level](figures/scatter_all_country_total_time-video_count.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/scatter_all_country_total_time-video_count.html)
 Total time of footage over the number of videos in the dataset on the country level. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Distribution by continent](figures/bar_continent_time_of_day.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/bar_continent_time_of_day.html)
+[![Distribution by continent](figures/bar_continent_time_of_day.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/bar_continent_time_of_day.html)
 Distribution of videos by continent. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
-[![Time of upload of videos](figures/hist_months.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/hist_months.html)
+[![Time of upload of videos](figures/hist_months.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/hist_months.html)
 Time of upload of videos.
 
-[![Distribution by type of vehicle](figures/bar_vehicle_type_time_of_day.png)](https://htmlpreview.github.io/?https://github.com/Shaadalam9/youtube-pedestrian/blob/main/figures/bar_vehicle_type_time_of_day.html)
+[![Distribution by type of vehicle](figures/bar_vehicle_type_time_of_day.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/bar_vehicle_type_time_of_day.html)
 Distribution of segments (parts of videos included in dataset) by type of vehicle.
 
 
