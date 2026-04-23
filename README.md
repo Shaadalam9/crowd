@@ -210,7 +210,7 @@ Video: [https://www.youtube.com/watch?v=rdx7UFXYSz0](https://www.youtube.com/wat
 
 ## Description and analysis of dataset
 ### Description of dataset
-[![Locations of cities with footage in dataset](figures/mapbox_map_all.png)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/crowd-dataset/crowd/main/figures/mapbox_map_all.html)
+[![Locations of cities with footage in dataset](figures/mapbox_map_all.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all.html)
 Locations of cities with footage in dataset. *Note:* continents are based on geography, i.e., the cities in Russia east from Ural mountains are shown as Asia.
 
 [![Locations of cities with footage in dataset with density overlay of population](figures/mapbox_map_all_pop.png)](https://htmlpreview.github.io/?https://github.com/crowd-dataset/crowd/blob/main/figures/mapbox_map_all_pop.html)
