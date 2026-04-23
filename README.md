@@ -165,46 +165,39 @@ For working with external APIs of [VideoFiles](https://files.mobility-squad.com/
 
 ## Example of YOLO output for a video with dashcam footage
 
-<a href="https://youtu.be/NipvoDg0Nyk">
-  <img src="./readme/output.gif" width="100%" />
-</a>
+<video src="./readme/output.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=_Wyg213IZDI](https://www.youtube.com/watch?v=_Wyg213IZDI).
 
 ## Selection procedure
 
 ### Segments of videos were not selected if frames are skipped
-<a href="https://youtu.be/0K9vaQxKZ9k">
-  <img src="./readme/ghost.gif" width="100%" />
-</a>
+
+<video src="./readme/ghost.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=0K9vaQxKZ9k](https://www.youtube.com/watch?v=0K9vaQxKZ9k).
 
 ### Snippets of videos are not analysed during the movement of camera
-<a href="https://youtu.be/3jVszt_78_k">
-  <img src="./readme/camera_move.gif" width="100%" />
-</a>
+
+<video src="./readme/camera_move.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=3jVszt_78_k](https://www.youtube.com/watch?v=3jVszt_78_k).
 
 ### Videos are excluded from analysis if the camera is unstable or shaking
-<a href="https://youtu.be/uFG1_JBZUmM">
-  <img src="./readme/shaking.gif" width="100%" />
-</a>
+
+<video src="./readme/shaking.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=uFG1_JBZUmM](https://www.youtube.com/watch?v=uFG1_JBZUmM).
 
 ### Snippets of videos captured in parking areas were excluded from analysis
-<a href="https://youtu.be/U0pdQ8eZtHY">
-  <img src="./readme/parking.gif" width="100%" />
-</a>
+
+<video src="./readme/parking.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=U0pdQ8eZtHY](https://www.youtube.com/watch?v=U0pdQ8eZtHY).
 
 ### Videos are excluded from analysis if another video is a part of main video
-<a href="https://youtu.be/rdx7UFXYSz0">
-  <img src="./readme/video_in_video.gif" width="100%" />
-</a>
+
+<video src="./readme/video_in_video.mp4" width="100%" controls muted loop playsinline preload="metadata"></video>
 
 Video: [https://www.youtube.com/watch?v=rdx7UFXYSz0](https://www.youtube.com/watch?v=rdx7UFXYSz0).
 
