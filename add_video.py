@@ -785,8 +785,6 @@ def form():
                 if existing_video_state['time_of_day_video']:
                     time_of_day_video = existing_video_state['time_of_day_video']
 
-
-
             else:
                 message = "No entry for locality found. You can add new data."
                 iso2_code = common.get_iso2_country_code(common.correct_country(country))
@@ -837,8 +835,8 @@ def form():
                         hit_row = df.loc[hit['idx']].to_dict()
                         hit_state = get_video_state_from_row(hit_row, video_id)
                         if hit_state['end_time_video']:
-                            end_time_video = hit_state['end_time_video']
-                            start_time_video = hit_state['start_time_video']
+                            # end_time_video = hit_state['end_time_video']
+                            # start_time_video = hit_state['start_time_video']
                             if hit_state['vehicle_type_video'] is not None:
                                 vehicle_type_video = hit_state['vehicle_type_video']
                             if hit_state['time_of_day_video']:
