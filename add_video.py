@@ -767,7 +767,9 @@ def form():
             existing_data = filtered_df[filtered_df.apply(lambda row: locality_matches(row, locality), axis=1)]
 
             if not existing_data.empty:
-                message = "Entry for locality found. You can update data."
+                existing_data_row = existing_data.iloc[0].to_dict()
+                n_videos = len(_parse_videos_cell(existing_data_row.get('videos', '')))
+                message = f"Entry for locality found ({n_videos} videos). You can update data."
                 existing_data_row = existing_data.iloc[0].to_dict()
                 locality = existing_data_row.get('locality')
 
