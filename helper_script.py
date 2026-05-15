@@ -1689,13 +1689,15 @@ class Youtube_Helper:
                     bbox_frame_filename = os.path.join(bbox_tracked_frame_output_path, f"frame_tracked_{frame_count}.jpg")  # noqa: E501
                     cv2.imwrite(bbox_frame_filename, bbox_annotated_frame)
 
-            # Break the loop if 'q' is pressed
-            if cv2.waitKey(1) & 0xFF == ord("q"):
-                break
+            # Break the loop if 'q' is pressed, only when display is enabled
+            if self.display_frame_tracking or self.display_frame_segmentation:
+                if cv2.waitKey(1) & 0xFF == ord("q"):
+                    break
 
         # Release resources
         cap.release()
-        cv2.destroyAllWindows()
+        if self.display_frame_tracking or self.display_frame_segmentation:
+            cv2.destroyAllWindows()
         progress_bar.close()
 
         if flag:
